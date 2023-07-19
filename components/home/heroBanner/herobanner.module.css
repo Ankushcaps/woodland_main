@@ -1,0 +1,23 @@
+.customPrevButton {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .customNextButton {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .customPrevButton img,
+  .customNextButton img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+  }

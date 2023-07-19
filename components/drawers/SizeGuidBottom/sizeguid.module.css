@@ -1,0 +1,3 @@
+.alterdiv:nth-of-type(odd) {
+  background-color: #ededed;
+}

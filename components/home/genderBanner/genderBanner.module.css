@@ -1,0 +1,48 @@
+.footwearSection {
+  position: relative;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+.footwearSection .Content {
+  position: absolute;
+  bottom: 20px;
+  left: 84px;
+  text-align: left;
+  z-index: 2;
+}
+.footwearSection .Content p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color-white);
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif !important;
+}
+.wrapperImg {
+  text-align: center;
+}
+
+.wrapperImg h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: left;
+  color: var(--color-white);
+  font-family: "Raleway", sans-serif !important;
+}
+
+@media screen and (max-width: 576px) {
+  .footwearSection .Content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .wrapperImg h3 {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

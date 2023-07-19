@@ -1,0 +1,90 @@
+.marginBottom {
+  margin-bottom: 0;
+}
+.footwearSection {
+  /* background: #ebebeb; */
+  /* padding: 100px 0; */
+  position: relative;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+.footwearSection .Content {
+  position: absolute;
+  bottom: 20px;
+  left: 84px;
+  text-align: left;
+  z-index: 2;
+}
+.footwearSection .Content p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color-white);
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif !important;
+}
+.wrapperImg h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: left;
+  color: var(--color-white);
+  font-family: "Raleway", sans-serif !important;
+}
+.instagramSection h3 {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--color-black);
+}
+.instagramSection p {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+.customCursorIn {
+  cursor: url(/images/zoom-in.svg), auto;
+}
+.customCursorOut {
+  cursor: url(/images/zoom-out.svg), auto;
+}
+
+.addbtn {
+  inset: 0;
+  position: absolute;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all;
+  transition-duration: 1500ms;
+  transition-timing-function: ease-in-out;
+}
+.btnanimation {
+  transform: translateX(-100%);
+}
+
+.btnbeforeanimation {
+  transform: translateX(0px);
+}
+@media screen and (max-width: 576px) {
+  .footwearSection .Content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 487px) {
+  .customCol {
+    width: 100%;
+  }
+}

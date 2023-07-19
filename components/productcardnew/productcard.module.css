@@ -1,0 +1,71 @@
+.productwrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #a31010;
+  color: #ffffff;
+  padding: 2px 5px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.bestsellertag {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background-color: #3b6f44;
+  color: #ffffff;
+  padding: 2px 5px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.productname {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.productprice {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 0;
+}
+.productprice span {
+  text-decoration: line-through;
+  margin-right: 1rem;
+  font-weight: 400;
+}
+.card {
+  width: 100%;
+}
+.productimg {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background-color: #ebebeb !important;
+}
+.productimg img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+  object-fit: contain;
+  aspect-ratio: 290/290;
+}
+
+@media screen and (max-width: 768px) {
+  /* .productwrapper {
+    width: 50%;
+  } */
+}

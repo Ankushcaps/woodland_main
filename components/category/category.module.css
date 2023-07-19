@@ -1,0 +1,36 @@
+.categorywapper {
+  background-color: #ffffff;
+  height: 550px;
+  border-top: 1px solid gray;
+}
+.categoryitem {
+  color: #3b6f44;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 4px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #3b6f44;
+  font-family: Raleway, sans-serif;
+  cursor: pointer;
+}
+.subcategoryitem {
+  color: #232323;
+  font-weight: 700;
+  font-size: 14px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+  display: block;
+  text-decoration: none;
+}
+.subsubcategoryitem {
+  padding-left: 2.5rem;
+  color: #232323;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+  display: block;
+  text-decoration: none;
+}

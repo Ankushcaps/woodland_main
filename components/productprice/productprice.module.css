@@ -1,0 +1,41 @@
+.productname {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  letter-spacing: 0em;
+  color: rgb(35, 35, 35);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37px;
+  text-transform: capitalize;
+}
+.productprice {
+  font-family: Inter;
+  font-size: 22px;
+  margin: 1rem 0;
+}
+.productprice .offerprice {
+  color: #232323;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+.productprice .mrpprice {
+  color: #857970;
+  padding-right: 1rem;
+  font-weight: 400;
+}
+.productprice .mrpprice span {
+  text-decoration: line-through;
+}
+.productprice .discount {
+  color: #00890e;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+.inculsivetax {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  color: #857970;
+  margin-top: 0.5rem;
+}

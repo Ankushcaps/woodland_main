@@ -1,0 +1,125 @@
+.productwrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #a31010;
+  color: #ffffff;
+  padding: 3px 6px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.bestsellertag {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background-color: #3b6f44;
+  color: #ffffff;
+  padding: 3px 6px;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.productname {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+.productprice {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 0;
+}
+.productprice span {
+  text-decoration: line-through;
+  margin-right: 1rem;
+  font-weight: 400;
+}
+.swiper-slide,
+.swiper-slide-active,
+.swiper-slide-next {
+  width: 100% !important;
+}
+.card {
+  width: 100%;
+}
+.productimg {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background-color: #ebebeb !important;
+  cursor: pointer;
+}
+.productimg img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+  object-fit: contain;
+  aspect-ratio: 290/290;
+}
+
+.customPrevButton {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.customNextButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.customPrevButton img,
+.customNextButton img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.customPrevButtonSku {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+
+.customNextButtonSku {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+
+.customPrevButtonSku img,
+.customNextButtonSku img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  /* .productwrapper {
+      width: 50%;
+    } */
+}

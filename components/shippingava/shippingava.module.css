@@ -1,0 +1,73 @@
+.title {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin: 0 0 0.5rem 0;
+}
+.description {
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+.shippingcheck {
+  background-color: #edededd9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 50px;
+  padding: 5px;
+  margin: 0 0 0.5rem 0;
+}
+.shippingcheck input {
+  background-color: #edededd9;
+  border: none;
+  outline: none;
+  height: 100%;
+  color: #232323
+}
+.shippingcheck button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Raleway;
+  color: #3b6f44;
+  cursor: pointer;
+}
+.shippingcheck input::placeholder {
+  color: #909090;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 14px;
+}
+.error {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  color: #c10000;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin: 0 0 0.5rem 0;
+}
+.success {
+  font-family: Inter;
+  color: #00890e;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin: 0 0 0.5rem 0;
+}
+
+@media screen and (max-width: 500px) {
+  .shippingcheck {
+    width: 100%;
+  }
+}

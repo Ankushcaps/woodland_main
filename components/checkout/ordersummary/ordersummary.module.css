@@ -1,0 +1,44 @@
+.title {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  color: #303030;
+  border-bottom: 1px solid #dcdcdc;
+}
+.orderdetials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+  margin-bottom: 1rem;
+}
+.item {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.itemvalue {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+.totalorderdetials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+  margin-top: 1rem;
+}
+.totalorderdetials .item {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+.inclusive {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  color: #afafaf;
+  margin-bottom: 1rem;
+}

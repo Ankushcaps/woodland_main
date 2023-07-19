@@ -1,0 +1,33 @@
+.categoryevent {
+  color: black;
+  margin: 6px 0 8px 0;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+.category {
+  margin: 0;
+  padding-bottom: 2px;
+  cursor: pointer;
+  color: black;
+}
+.subcategory {
+  margin: 0;
+  padding-bottom: 4px;
+  padding-left: 40px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+.category:hover {
+  color: #afafaf !important;
+}
+.subcategory:hover{
+  color: #afafaf !important;
+}
+.greenCategory {
+  color: #3b6f44;
+  border-bottom: 1px solid #0c5423;
+  margin: 0 0 8px 0;
+  padding-bottom: 2px;
+  cursor: pointer;
+}

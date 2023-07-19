@@ -1,0 +1,146 @@
+.inputcontainer {
+  display: flex;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+.inputbox {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+.inputcontainer .Lname {
+  gap: 1rem;
+}
+.inputcontainer .landmark {
+  flex: 0.5;
+  margin-right: 1rem;
+}
+.pincodewrapper {
+  flex-direction: column;
+}
+.inputbox input {
+  background-color: #f4f4f4;
+  color: #7b7b7b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  height: 45px;
+  border: none;
+  width: 100%;
+  padding-left: 1rem;
+  outline: none;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.workspacecontainer {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.workspace {
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 1rem;
+}
+
+.workspace label {
+  display: flex;
+  padding-bottom: 0.5rem;
+  align-items: center;
+}
+.workspace label input {
+  margin-right: 0.5rem;
+}
+
+.state {
+  margin-top: 1.5rem;
+}
+/* .state input {
+    position: absolute;
+    bottom: 0;
+  } */
+.error {
+  color: #c10000;
+  position: absolute;
+  padding-left: 0.5rem;
+  bottom: -20px;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 14px;
+}
+.addressline {
+  height: 100% !important;
+}
+
+.workspace input {
+  accent-color: #3b6f44;
+}
+.errorwork {
+  color: #c10000;
+  padding-left: 0.5rem;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 14px;
+}
+.subhead {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  letter-spacing: 0em;
+  color: #303030;
+}
+.submitbtn {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 12px 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 111, 68);
+  width: 100%;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 599px) {
+  .inputcontainer {
+    display: block;
+    padding-bottom: 0;
+  }
+  .inputbox {
+    margin-bottom: 1.5rem;
+  }
+  .addressline {
+    height: 90px !important;
+  }
+  .inputcontainer .landmark {
+    margin-right: 0;
+  }
+  .workspace {
+    display: block;
+  }
+}

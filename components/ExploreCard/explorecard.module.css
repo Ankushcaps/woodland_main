@@ -1,0 +1,30 @@
+.tShirtSection {
+  margin-bottom: 20px;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+/* .tShirtSection img {
+  width: 100%;
+} */
+.tShirtSection .Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  margin-top: 10px;
+}
+.tShirtSection .Content h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 148.4%;
+  color: var(--color-green);
+  font-family: "Raleway", sans-serif !important;
+}
+.tShirtSection .Content h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 148.4%;
+  letter-spacing: 0.02em;
+  color: var(--color-green);
+  font-family: "Raleway", sans-serif !important;
+}

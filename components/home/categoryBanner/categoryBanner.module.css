@@ -1,0 +1,16 @@
+.bannerSection {
+  position: relative;
+}
+.bannerContent {
+  position: absolute;
+  right: 84px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 576px) {
+  .bannerContent {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
