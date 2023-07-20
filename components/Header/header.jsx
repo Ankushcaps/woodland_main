@@ -1,15 +1,17 @@
 import { useRouter } from "next/router";
 import style from "./header.module.css";
 import Link from "next/link";
-
 import { Box } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import { useState } from "react";
 import MenCategory from "../category/men";
 import WomenCategory from "../category/women";
+import AuthLogin from "../drawers/Login/login";
 const Header = () => {
   const [hoverMenu, setHoverMenu] = useState("");
+  const [login, setLogin] = useState(false);
+
   const router = useRouter();
   const navList = [
     {
@@ -43,6 +45,11 @@ const Header = () => {
       router.push(item.target);
     }
   };
+
+  const openLoginDrawer = () => {
+    setLogin(true);
+  };
+
   return (
     <header className={style.headerwapper}>
       <Box
@@ -83,7 +90,7 @@ const Header = () => {
             >
               Find Store
             </span>
-            <span className={style.firstnavlist}>Sign In</span>
+            <span onClick={openLoginDrawer} className={style.firstnavlist}>Sign In</span>
           </div>
         </div>
       </Box>
@@ -192,6 +199,7 @@ const Header = () => {
             <MenuIcon />
           </div>
         </div>
+        <AuthLogin login={login} setLogin={setLogin} />
       </Box>
     </header>
   );
