@@ -27,7 +27,7 @@ const Header = () => {
     {
       name: "Bags & Gear",
       hassub: false,
-      target: "/products",
+      target: "/bags-gear",
     },
     {
       name: "About Us",
@@ -199,8 +199,8 @@ const Header = () => {
             <MenuIcon />
           </div>
         </div>
-        <AuthLogin login={login} setLogin={setLogin} />
       </Box>
+        <AuthLogin login={login} setLogin={setLogin} />
     </header>
   );
 };

@@ -27,8 +27,8 @@
 }
 .searchinput {
   display: flex;
-  align-items: flex-end;
-  /* padding-bottom: 10px; */
+  align-items: end;
+  justify-content: end;
 }
 .searchinput input {
   position: relative;
